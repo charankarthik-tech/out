@@ -1,0 +1,57 @@
+/* basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* learning-themed background image with light overlay for readability */
+    background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
+                url("https://source.unsplash.com/1600x900/?education,learning") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+main ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main li {
+    background: #fff;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+main a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
